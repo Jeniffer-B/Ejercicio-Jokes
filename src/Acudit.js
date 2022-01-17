@@ -1,28 +1,20 @@
-class Acudit {
-    constructor(joke, score, date) {
-        this._joke = joke;
-        this._score = score;
-        this._date = date;
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Acudit = void 0;
+var Acudit = /** @class */ (function () {
+    function Acudit(joke) {
+        this.joke = joke;
     }
-    set joke(joke){
-        this._joke= joke;
-    }
-    get joke(){
-        return this._joke;
-    }
-    set score(score){
-        this._name= score;
-    }
-    get score(){
-        return this._score;
-    }
-    set date(date){
-        this._date= date;
-    }
-    get date(){
-        return this._date;
-    }
-    reportJokes(){
-        return this._joke + " " + "tiene" + " "+ this._score +"puntos." + " "+this._date;
-    }
-}
+    Object.defineProperty(Acudit.prototype, "joke", {
+        get: function () {
+            return this.joke;
+        },
+        set: function (joke) {
+            this.joke = joke;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    return Acudit;
+}());
+exports.Acudit = Acudit;
