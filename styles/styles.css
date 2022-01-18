@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    background-image: linear-gradient(to right top, 
+    #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+#temperatureDiv{
+    font-size: 3em;
+}
+.card-body{
+    background-image: url(../src/backgrounds/background1.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 250%;
+    background-position: center;
+    background-origin: content-box;
+    background-clip: border-box;
+    min-width: none;
+    position: relative;
+}
+#jokeDiv{
+    min-height: 90px;
+    font-size: 1.5em;
+}
+.rating-div{
+    min-height: 100px;
+}
+.emoji{
+    min-height: 0;
+}
+
